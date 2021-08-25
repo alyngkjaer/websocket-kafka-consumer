@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    function:
+      definition: 
+    stream:
+      bindings:
+        input-in-0:
+          destination: v1.result
+          group: ${spring.application.name}
+        
+        
